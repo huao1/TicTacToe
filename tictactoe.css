@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.title-container {
+    background-color: #F4D160;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    box-shadow: 0px 4px 4px #c3a74c;
+}
+
+.title{
+    margin: 0;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #1D5D9B;
+    text-shadow: 3px 2px 1px black;
+}
