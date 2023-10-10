@@ -7,8 +7,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
-    box-shadow: 0px 4px 4px #c3a74c;
+    height: 15vh;
+    box-shadow: 0px 2px 4px black;
+    z-index: 10;
 }
 
 .title{
@@ -19,4 +20,31 @@ body {
     font-weight: bolder;
     color: #1D5D9B;
     text-shadow: 3px 2px 1px black;
+}
+
+.game-container {
+    margin-top: 2px;
+    height: 85vh;
+    width: 100%;
+    background-color: #1D5D9B;
+}
+
+.player-container {
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player {
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    text-shadow: 3px 2px 1px black;
+}
+
+.one {
+    color: #75C2F6;
+}
+
+.two {
+    color: #FBEEAC;
 }
