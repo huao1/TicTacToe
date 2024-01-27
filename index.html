@@ -16,16 +16,24 @@
             <h1 class="player one">Player 1 - X</h1>
             <h1 class="player two">Player 2 - O</h1>
         </div>
+        <div class="score-container">
+            <h1 class="player one">Score: <span id="X">0</span></h1>
+            <h1 class="player two">Score: <span id="O">0</span></h1>
+        </div>
         <div class="tic-container">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button class="tic-button tic-top tic-left"></button>
+            <button class="tic-button tic-top"></button>
+            <button class="tic-button tic-top tic-right"></button>
+            <button class="tic-button tic-left"></button>
+            <button class="tic-button"></button>
+            <button class="tic-button tic-right"></button>
+            <button class="tic-button tic-left tic-bottom"></button>
+            <button class="tic-button tic-bottom"></button>
+            <button class="tic-button tic-bottom tic-right"></button>
+        </div>
+        <div class="rematch-container">
+            <button class="rematch">Rematch/Restart</button>
+            <button id="reset" class="rematch">Reset Score</button>
         </div>
     </div>
 </body>
